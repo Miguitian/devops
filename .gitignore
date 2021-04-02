@@ -1,25 +1,3 @@
 venv/
-.idea
-__pycache__
-
-在虚拟机第一次下载git使用时需要修改git的配置文件
-#git config --global user.name "***"(此处填写gitup帐号)
-#git config --global user.email ***     (此处填写注册git帐号时所用的邮箱)
-
-
-第一次连接gitup上传的步骤
-1.先在git网站中创建一个库
-2.找到该库的http网址备用
-3.在linux下创建一个文件夹，作为与github连接用的桥梁
-4.将所需要上传的文件拷贝到新创建的文件夹中
-#git init
-#git add files
-#git commit -m "***"  (引号当中必须填写，填写的是做此操作的一个记录)
-#git remote add origin https://(这里的网址是作为第一上传填写的，填写的是步骤二的网址)
-#git push -u origin master  (第一次需要填写的)
-#在根据提示输入git的名称和密码即可。
-
-第一次下载gitup对应库的步骤
-1.在当前文件夹下输入命令
-#git clone https://(这里的网址是上个流程步骤2的网址 网址后面可以写一个文见名是更改的意思)
-#pull
+.idea/*
+**__pycache__**
